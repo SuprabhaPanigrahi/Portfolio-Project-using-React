@@ -10,7 +10,7 @@ I’m an aspiring full-stack web developer with a strong foundation in **HTML**,
 
 ## 🚀 Live Demo
 
-🌐 [View Live Portfolio] suprabha-portfolio.vercel.app/
+🌐 [View Live Portfolio] (https://suprabha-portfolio.vercel.app/)
 
 
 ---
