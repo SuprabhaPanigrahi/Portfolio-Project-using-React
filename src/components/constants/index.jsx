@@ -192,8 +192,8 @@ export const projects = [
     tags: ["React", "Framer Motion", "CSS Modules"],
     type: "web",
     imageUrl: "/images/Portfolio_React.png",
-    projectUrl: "https://portfolio-react-suprabha.vercel.app/",
-    codeUrl: "https://github.com/SuprabhaPanigrahi/Portfolio-React",
+    projectUrl: "https://suprabha-portfolio.vercel.app/",
+    codeUrl: "https://github.com/SuprabhaPanigrahi/Portfolio-Project-using-React",
   },
   {
     title: "E-Commerce Application",
