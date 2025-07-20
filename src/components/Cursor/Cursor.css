@@ -1,0 +1,32 @@
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease;
+}
+
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(0.9);
+  background: rgba(255, 255, 255, 1);
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.5);
+  background: rgba(236, 72, 153, 0.5);
+}
+
+@media (pointer: coarse) {
+  .cursor {
+    display: none;
+  }
+}
