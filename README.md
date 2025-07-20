@@ -61,23 +61,34 @@ npm start
 📤 Deployment
 
 This project is deployed using Vercel.
+
 To deploy your own version:
+
 Fork the repository
+
 Push it to your GitHub
+
 Connect it to Vercel
+
 Deploy!
 
 🙌 Acknowledgements
 
 Framer Motion – UI animation library
+
 Figma – for designing the UI layout
+
 Vercel – seamless deployment
 
 📫 Contact
 
 Feel free to connect with me:
+
 💼 LinkedIn - www.linkedin.com/in/suprabha-panigrahi 
+
 📧  suprabhapanigrahi620@gmail.com  
+
 💻 GitHub - https://github.com/SuprabhaPanigrahi 
+
 
 Made with ❤️ and React by Suprabha Panigrahi
