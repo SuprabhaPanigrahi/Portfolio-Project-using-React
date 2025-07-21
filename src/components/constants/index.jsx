@@ -141,7 +141,7 @@ export const experiences = [
   {
     role: "Software Development Engineer",
     company: "Akrabhi Softlabs Pvt Ltd.",
-    period: "April 2021 - June 2021",
+    period: "April 2025 - June 2025",
     responsibilities: [
       "Developed responsive and maintainable frontend components using React, TypeScript, and Next.js for a healthcare web platform.",
       "Applied strong HTML, CSS, and JavaScript skills to deliver scalable UI solutions.",
