@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { socialLinks } from "../constants";
 import styles from "./Hero.module.css";
-import { FiDownload } from "react-icons/fi";
+// import { FiDownload } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -15,22 +15,22 @@ const Hero = () => {
             transition={{ type: "spring", stiffness: 125, delay: 0.2 }}
             className={styles.profileWrapper}
           >
-            <img 
-              src="/images/Profile.JPG" 
-              alt="Profile" 
+            <img
+              src="/images/Profile.JPG"
+              alt="Profile"
               className={styles.profileImage}
             />
           </motion.div>
-          
+
           {/* CHANGED: Waving hand now properly positioned */}
           <motion.span
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ 
+            transition={{
               type: "spring",
               stiffness: 125,
               delay: 0.4,
-              duration: 0.7
+              duration: 0.7,
             }}
             className={styles.wave}
           >
@@ -63,7 +63,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 1.0 }}
           className={styles.subtitle}
         >
-          Full Stack Web Developer | Passionate Learner
+          Full Stack Developer | Passionate Learner
         </motion.h2>
 
         <motion.p
@@ -90,11 +90,12 @@ const Hero = () => {
           </a>
           <a
             href="/Suprabha_Panigrahi_Resume.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className={styles.tertiaryButton}
           >
-            Download CV
-            <FiDownload className={styles.downloadIcon} />
+            View My Resume
+            {/* <FiDownload className={styles.downloadIcon} /> */}
           </a>
         </motion.div>
 

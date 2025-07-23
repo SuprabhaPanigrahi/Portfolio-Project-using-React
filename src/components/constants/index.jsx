@@ -64,6 +64,8 @@ export const aboutText = `
   Fueled by curiosity and a passion for innovation, I love building dynamic, user-friendly, and meaningful web applications that solve real-world problems. I thrive in environments that encourage learning and growth, and I’m always exploring new tools, frameworks, and creative solutions.
 
   With a focus on both functionality and aesthetics, I enjoy crafting seamless user interfaces and building robust backend systems. Beyond coding, I engage with the developer community through learning, sharing, and contributing to open-source.
+
+  🔽 Need more details? [View full CV]
 `;
 <div className={styles.text}>
   {aboutText.split("\n\n").map((paragraph, index) => (

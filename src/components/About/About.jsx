@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { aboutText } from '../constants';
 import styles from './About.module.css';
-// import profilePhoto from '../assets/images/Profile.JPG';
 
 const About = () => {
   return (
@@ -25,15 +24,32 @@ const About = () => {
               About <span className={styles.highlight}>Me</span>
             </motion.h2>
             
-            <motion.p
+            <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
               viewport={{ once: true }}
               className={styles.text}
             >
-              {aboutText}
-            </motion.p>
+              {aboutText.split('\n\n').map((paragraph, index) => {
+                if (paragraph.includes('[View full CV]')) {
+                  return (
+                    <p key={index}>
+                      {paragraph.split('[View full CV]')[0]}
+                      <a 
+                        href="/Suprabha_Panigrahi_CV.pdf" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.cvLink}
+                      >
+                        View full CV
+                      </a>
+                    </p>
+                  );
+                }
+                return <p key={index}>{paragraph}</p>;
+              })}
+            </motion.div>
             
             <motion.div
               initial={{ opacity: 0 }}
